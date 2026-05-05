@@ -131,8 +131,7 @@ def scan_port(host, port):
     s.close()
 
     if result == 0:
-        if result == 0:
-            print(f"{ports[port]}, {port} - открыт")
+        print(f"{ports[port]}, {port} - открыт")
 
 def scan_ports(host):
     # Using threads for speed
